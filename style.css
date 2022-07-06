@@ -169,7 +169,7 @@ p {
 
 /*--------update------*/
 .update {
-    margin: 100px 450px;
+    margin: 100px 400px;
     background-color: rgb(232, 226, 192);
     padding: 50px 40px;
 }
@@ -177,10 +177,11 @@ p {
 .update input {
     border: 1px solid red;
     font-size: 20px;
+    justify-content: center;
 }
 
 .update button {
-    padding: 6px 20px;
+    padding: 6px 20px 2px;
     background-color: red;
     color: wheat;
     border: 1px solid red;
@@ -197,19 +198,10 @@ p {
 
 }
 
-#color-white {
-    color: white;
-}
-
 .last-part h3 {
-    color: rgb(255, 99, 71);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: 'Times New Roman', Times, serif;
 }
 
-.last-part {
-    text-align: center;
-    background-color: black;
+.last-part p {
     color: white;
-    padding: 40px 0px;
 }
